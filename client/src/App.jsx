@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">Buy Me A Coffee Clone</h1>
+      <h1 className="text-3xl font-bold mb-4">Buy Me A Chai</h1>
       <div className="grid grid-cols-3 gap-4">
         {posts.map((post) => (
           <div key={post.id} className="bg-white p-4 shadow-md rounded-md">
